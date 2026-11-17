@@ -1,0 +1,25 @@
+{
+  "accuracy": 0.7283479587943533,
+  "balanced_accuracy": 0.7299913544331896,
+  "f1": 0.73172569706104,
+  "roc_auc": 0.8121344619302981,
+  "train_rows": 10480,
+  "test_rows": 2621,
+  "features": [
+    "game_mode",
+    "first_blood_time_15m",
+    "radiant_gold_15m",
+    "dire_gold_15m",
+    "gold_diff_15m",
+    "radiant_gold_event_count_15m",
+    "dire_gold_event_count_15m",
+    "kill_events_15m",
+    "tower_damage_15m",
+    "tower_damage_event_count_15m"
+  ],
+  "baseline": {
+    "accuracy": 0.528424265547501,
+    "balanced_accuracy": 0.5
+  },
+  "mart_table": "lakehouse.mart.case16_winner_dataset"
+}
